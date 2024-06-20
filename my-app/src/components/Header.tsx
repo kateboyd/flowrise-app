@@ -1,5 +1,6 @@
 import { createClient } from "@/prismicio"
 import { PrismicNextLink } from "@prismicio/next"
+import Link from "next/link"
 
 export default async function Header() {
   const client = createClient()
@@ -8,7 +9,7 @@ export default async function Header() {
 
   return (
     <header>
-      {settings.data.site_title}
+      <Link href="/">{settings.data.site_title}</Link>
 
       <nav>
         <ul>
