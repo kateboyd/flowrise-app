@@ -1,0 +1,70 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Productivity that flows with your life. ",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Unleash your potential by harmonizing your daily tasks and habits with your unique energy rhythms. ",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "This is our button"
+			},
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa",
+					"width": 2747,
+					"height": 4120
+				},
+				"url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa",
+				"width": 2747,
+				"height": 4120,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "prismic.io"
+				}
+			}
+		},
+		"items": []
+	}
+]
